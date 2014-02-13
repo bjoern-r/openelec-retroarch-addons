@@ -1,0 +1,10 @@
+--- a/Makefile	2014-01-24 23:32:30.585027041 +0100
++++ b/Makefile	2014-01-24 23:32:38.029026740 +0100
+@@ -13,7 +13,6 @@
+ endif
+ endif
+ 
+-CC         = gcc
+ 
+ ifeq ($(platform), unix)
+    TARGET := libretro.so
